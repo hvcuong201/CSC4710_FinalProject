@@ -1,4 +1,4 @@
-# TeamHobo_CSC4710_FinalProject
+# CSC4710_FinalProject
 
 <h1 align="center">Beans!</h1>
 
