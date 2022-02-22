@@ -1,0 +1,22 @@
+.thankyou-order-container {
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 7%;
+}
+
+.thankyou-order-container h3 {
+  justify-content: center;
+  display: flex;
+}
+
+.thankyou-order-container a {
+  text-decoration: none;
+}
+
+hr {
+  width: 90%;
+  border: 0;
+  height: 1px;
+  background: #000;
+  opacity: 0.2;
+}

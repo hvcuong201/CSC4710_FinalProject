@@ -1,0 +1,131 @@
+hr {
+  width: 100%;
+  border: 0;
+  height: 1px;
+  background: #000;
+  opacity: 0.2;
+}
+
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 30rem;
+  padding-left: 30rem;
+}
+
+.column-labels {
+  flex: 1 1 0px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.5;
+  padding: 10px 5%;
+  margin: 1rem 0.5rem auto;
+}
+
+.label-item-image,
+.cart-item-image {
+  flex-grow: 1;
+  flex-basis: 0;
+  min-width: 0;
+}
+.label-item-details,
+.cart-item-details {
+  flex-grow: 1;
+  flex-basis: 0;
+  min-width: 0;
+}
+.label-item-price,
+.cart-item-price {
+  flex-grow: 1;
+  flex-basis: 0;
+  min-width: 0;
+}
+.label-item-quantity,
+.cart-item-quantity {
+  flex-grow: 1;
+  flex-basis: 0;
+  min-width: 0;
+}
+.label-item-stock,
+.cart-item-stock {
+  flex-grow: 1;
+  flex-basis: 0;
+  min-width: 0;
+}
+.label-item-removal,
+.cart-item-removal {
+  flex-grow: 1;
+  flex-basis: 0;
+  min-width: 0;
+}
+.label-item-total-price,
+.cart-item-total-price {
+  flex-grow: 1;
+  flex-basis: 0;
+  min-width: 0;
+  text-align: right;
+}
+
+.label-item-image,
+.label-item-details,
+.label-item-removal {
+  text-indent: -9999px;
+}
+
+.cart-item-container .cart-item-price:before,
+.cart-item-container .cart-itemt-total-price:before,
+.totals-value:before {
+  content: "$";
+}
+
+.cart-item-container {
+  flex: 1 1 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 0.5rem;
+  background: white;
+  padding-bottom: 2.8rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 5%;
+}
+
+.cart-item-image img {
+  height: 100px;
+}
+
+.totals {
+  text-align: right;
+  font-weight: bold;
+  font-size: large;
+}
+
+.totals-item {
+  display: block ruby;
+  margin-top: 10px;
+}
+
+input {
+  width: 40px;
+}
+
+.checkout-btn {
+  text-align: end;
+  margin-top: 20px;
+}
+
+.checkout-btn button {
+  background-color: #474e5d;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.checkout-btn button:hover {
+  cursor: pointer;
+  background-color: cadetblue;
+}
